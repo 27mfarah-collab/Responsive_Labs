@@ -1,0 +1,210 @@
+body {
+    background-color:beige;
+}
+.container {
+  width: 90%;
+  margin: auto;
+  
+  box-sizing: border-box;
+  box-shadow: 14px 16px 25px 16px rgba(0,0,0,0.93);
+-webkit-box-shadow: 14px 16px 25px 16px rgba(0,0,0,0.93);
+-moz-box-shadow: 14px 16px 25px 16px rgba(0,0,0,0.93);
+}
+
+header {
+  /* width: 90%; */
+  border-bottom: 1px dotted#bbbbbb;
+  /* width: 25rem; */
+  margin-bottom: 4rem;
+  position: sticky;
+  top: -15px;
+  padding-top: 15px;
+	opacity: 1;
+	Background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+main, header{
+  padding: 2px 50px;
+}
+
+a{
+  display: inline-block;
+}
+a:link {
+  color:navy; 
+}
+a:visited {
+  color:mediumblue;
+}
+a:hover{
+  color: black;
+}
+
+nav{
+  background-color: goldenrod;
+  padding: 10px;
+  
+}
+
+nav a{
+  background-color: rgba(86, 86, 207, 0.2);
+  padding: 5px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  transition: transform 0.3s ease-in-out;
+  
+}
+
+nav a:hover{
+  transform: scale(1.1);
+  background-color: rgba(86, 86, 207, 0.8);
+  box-shadow: 0.2rem 0.2rem 0.5rem 0.1rem rgba(0,0,0,0.5);
+  
+}
+
+.goals{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.text{
+  width: 50%;
+   display: flex;
+  flex-direction: column;
+
+}
+
+
+
+.section_pic{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+.section_pic img{
+  border-radius: 20px;
+}
+
+section {
+  margin-bottom: 3rem;
+}
+
+footer{
+  background-color: goldenrod;
+  padding: 10px;
+}
+
+footer a{
+  background-color: rgba(86, 86, 207, 0.2);
+  padding: 5px;
+  text-decoration: none;
+  border-radius: 5px;
+  
+}
+
+footer a:hover{
+  background-color: rgba(86, 86, 207, 0.8);
+}
+p.a {
+  font-family: "Times New Roman", Times, serif;
+}
+
+p.b {
+  font-family: Arial, Helvetica, sans-serif;
+}
+p.a {
+  font-size: 15px;
+}
+
+p.b {
+  font-size: large;
+}
+
+p.c {
+  font-size: 150%;
+}
+
+p{
+    color:darkblue;
+    font-size:24px;
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+h3 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font-size: 25px;
+}
+h2 {
+  font-size: 25px;
+}
+h3 {
+  font-size: 25px;
+}
+
+h1, h2, h3 {
+  color:cornflowerblue;
+}
+
+
+hr {
+  border:0;
+  width:100%;
+  color:dodgerblue;
+  background-color:darkslateblue;
+  height:5px;
+}
+th {
+  border:0;
+  width:100%;
+  color:rgb(28, 18, 90);
+  background-color:rgb(118, 111, 165);
+  height:5px;
+}
+td {
+  border:0;
+  width:100%;
+  color:rgb(28, 18, 90);
+  background-color:rgb(118, 111, 165);
+  height:5px;
+}
+/*jonah help test the code and how comments work in css*/
+
+h1 {
+    font-size: 3.815rem;
+font-size: clamp(3.815rem, 2.4370202020202014rem + 3.626262626262627vw, 5.61rem);
+}
+
+h2 {
+    font-size: 3.052rem;
+font-size: clamp(3.052rem, 2.1637979797979803rem + 2.3373737373737367vw, 4.209rem);
+}
+
+h3 {
+    font-size: 2.441rem;
+font-size: clamp(2.441rem, 1.891343434343434rem + 1.446464646464647vw, 3.157rem);
+}
+
+h4 {
+    font-size: 1.953rem;
+font-size: clamp(1.953rem, 1.6336464646464646rem + 0.8404040404040408vw, 2.369rem);
+}
