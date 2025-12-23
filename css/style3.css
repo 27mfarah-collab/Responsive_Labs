@@ -1,0 +1,59 @@
+.nav-desktop{
+    display: block;
+}
+
+.nav-desktop ul{
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    gap: 16px;
+}
+
+.nav-mobile {
+    transform: translateX(-150%);
+    transition: transform .5s ease;
+}
+
+.nav-mobile ul{
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.check {
+    position: absolute;
+    left: -500px;
+}
+
+.hamburger{
+    display: none;
+}
+
+@media (max-width: 40rem) {
+    
+    .nav-desktop {
+        display: none;
+    }
+
+    .nav-mobile {
+        transform: translateX(0%);
+    }
+
+    .hamburger{
+        display: block;
+
+    }
+
+    .nav-icon-hamburger{
+        display: block;
+    }
+
+    .nav-icon-close{
+        display: none;
+    }
+
+
+}
+
+
